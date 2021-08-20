@@ -17,7 +17,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    color: #000;
+    color: rgb(255, 255, 255);
     background-color: rgb(46, 47, 70);
 }
 
@@ -36,5 +36,53 @@ body {
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
-    color: rgb(19, 19, 126);
+    color: rgb(219, 6, 6);
+}
+
+.country-card__image {
+    width: 300px;
+    height: auto;
+}
+.country-card__list {
+    margin-bottom: 10px;
+}
+.js-countryItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.country__content {
+    margin-right: 50px;
+}
+.country-card__item {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.country-card__item--subtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+.country-card__item--language {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(37, 150, 52);
+}
+.country-card__item--language::before {
+    content: "\25E6 	\0020";
+    font-size: 25px;
+}
+.listCountry {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.listCountry::before {
+    content: "\2022 	\0020";
+    font-size: 25px;
 }
